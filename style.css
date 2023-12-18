@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.ring{
+  padding: 30px;
+  border-radius: 50%;
+  background-color: #ccc;
+  cursor: pointer;
+  border: 3px solid black;
+}
+.center{
+  
+  background-color: red;
+  z-index: +9;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+/* 
+.ring:hover{
+  background-color: green;
+} */
+
+
+.hovered{
+background-color: blue;
+}
+
+.clicked{
+background-color: green;
+
+}
+
+#resetButton{
+position: absolute;
+left: 100px;
+
+top: 80px;
+}
